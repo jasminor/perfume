@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#F4EFEA">
+  <meta name="description" content="Katalog mini JASMINOR. Edit konten, foto, harga, dan tautan toko di file site-data.js.">
+  <title>JASMINOR — Katalog Mini</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="site-data.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header class="page-shell site-header">
+    <a class="brand" href="#top" aria-label="JASMINOR — Perfumes &amp; Fragrances — kembali ke bagian atas">
+      <img class="brand-logo" src="assets/brand-logo.png" alt="">
+      <span class="brand-tagline">Perfumes &amp; Fragrances</span>
+    </a>
+    <nav class="main-nav" aria-label="Navigasi utama">
+      <a href="#koleksi">Katalog</a>
+      <a href="#koleksi">Cara belanja</a>
+    </nav>
+    <div class="header-note" id="header-note">Katalog mini</div>
+  </header>
+
+  <main id="top" class="page-shell">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy-block">
+        <div class="eyebrow" id="hero-eyebrow">Parfum · Cerita · Keseharian</div>
+        <h1 id="hero-title">Temukan aroma yang terasa seperti kamu.</h1>
+        <p class="hero-copy" id="hero-description"></p>
+        <div class="hero-actions">
+          <a class="button-primary" href="#koleksi" id="hero-primary-link">Lihat koleksi</a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-image-frame">
+          <img id="hero-image" src="assets/inspiration.jpg" alt="Foto inspirasi untuk katalog">
+        </div>
+      </div>
+    </section>
+
+    <section id="belanja" class="shop-panel" aria-label="Bagian belanja">
+      <div>
+        <div class="eyebrow" id="shop-eyebrow"></div>
+        <h2 id="shop-title"></h2>
+        <p id="shop-description"></p>
+      </div>
+      <div class="channel-actions" id="shop-links" aria-label="Kanal belanja"></div>
+    </section>
+
+    <section id="koleksi" class="products-section" aria-labelledby="products-title">
+      <div class="section-heading">
+        <div>
+          <div class="eyebrow" id="products-eyebrow">Koleksi</div>
+          <h2 id="products-title">Ruang untuk pilihanmu.</h2>
+        </div>
+      </div>
+      <div class="product-grid" id="product-grid"></div>
+      <div class="disclaimer" id="disclaimer">
+        <span class="disclaimer-mark" aria-hidden="true">*</span>
+        <div id="disclaimer-text"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="page-shell footer-inner">
+      <span class="footer-brand" id="footer-brand">JASMINOR</span>
+      <span id="footer-note">Katalog mini</span>
+    </div>
+  </footer>
+  <a class="back-to-top" href="#top" aria-label="Kembali ke atas" title="Kembali ke atas">
+    <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+      <path d="M12 19V5m-7 7 7-7 7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+  </a>
+</body>
+</html>
