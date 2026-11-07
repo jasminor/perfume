@@ -1,0 +1,9 @@
+{
+  "name": "jasminor-katalog-starter",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Starter katalog mini JASMINOR, HTML/CSS/JavaScript statis dengan preview lokal Node.js",
+  "scripts": {
+    "start": "node server.js"
+  }
+}
